@@ -1,0 +1,190 @@
+/* Reset and base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #2b2d37;
+  color: #faf3f3;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #111320;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #fff;
+}
+
+.search-cart input {
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  border: none;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  padding: 4rem 2rem;
+  background-color: #0f111f;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.tagline {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  color: #aaa;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #e63946;
+}
+
+.description {
+  margin-bottom: 1.5rem;
+  color: #ccc;
+}
+
+.info-btn {
+  background: #e63946;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.stats {
+  display: flex;
+  gap: 2rem;
+  color: #ccc;
+}
+
+.hero-car img {
+  margin: 0;
+  padding: 0;
+  width: 100vh;
+}
+
+/* Listing */
+.listing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #e63946;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.card h3 {
+  margin: 1rem 0 0.5rem;
+}
+
+.price {
+  color: #e63946;
+  font-weight: bold;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.details-btn {
+  background: #1d1f2f;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #111320;
+  color: #ccc;
+}
+
+.social a {
+  margin: 0 0.5rem;
+  color: #ccc;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: white;
+}
