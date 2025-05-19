@@ -4,6 +4,11 @@ Welcome to **Car Zone**, the ultimate online car showcase where passion meets pr
 
 ---
 
+📸Preview
+
+Assets/Preview.png
+
+
 ## 🧩 What is Car Zone?
 
 **Car Zone** is a sleek, responsive car listing website built with only **HTML & CSS**, crafted to deliver a modern browsing experience. From **brand-new beasts** to **vintage legends**, users can explore listings with flair and ease.
