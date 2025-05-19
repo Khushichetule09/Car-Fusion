@@ -6,7 +6,7 @@ Welcome to **Car Zone**, the ultimate online car showcase where passion meets pr
 
 📸Preview
 
-Assets/Preview.png
+![Alt text](Assets/Preview.png)
 
 
 ## 🧩 What is Car Zone?
